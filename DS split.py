@@ -38,7 +38,7 @@ def process_records(record_list, dataset_name):
     all_heartbeats = []
     all_labels = []
     
-    window_before = 90
+    window_before = 120
     window_after = 180
     
     print(f"\n--- Processing {dataset_name} ({len(record_list)} records) ---")
